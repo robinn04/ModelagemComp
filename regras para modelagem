@@ -1,0 +1,20 @@
+Uma companhia aérea necessita controlar os dados de seus voos. Para isso,
+contratou um profissional de Banco de Dados, a fim de modelar o Banco de Dados que
+armazenará os dados dos voos.
+As regras de negócio são:
+• Voo – Deverão ser armazenados os seguintes dados: identificação do voo, número
+do avião, cidade de origem, cidade de destino, data do voo e hora do voo;
+• Assento – Deverão ser armazenados os seguintes dados: identificação do assento
+e quantidade;
+• Passageiro – Deverão ser armazenados os seguintes dados: CPF, nome, telefone,
+e-mail e endereço (rua, número, complemento, bairro, CEP, cidade e estado);
+• Dependente – Deverão ser armazenados os seguintes dados: nome e data de
+nascimento;
+• Um voo pode ter zero ou vários assentos, assim como zero ou vários assentos
+pertencem a um voo;
+• Um passageiro pode ter zero ou várias reservas de assentos, assim como zero ou
+várias reservas de assentos pertencem a um passageiro;
+• Um passageiro pode ter zero ou vários dependentes, assim como zero ou vários
+dependentes são de um passageiro;
+• Da reserva deverão ser armazenados os seguintes dados: data da reserva e hora
+da reserva.
